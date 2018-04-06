@@ -1,7 +1,7 @@
-var a = [1,2,3,4,5]
-a.unshift(0)
-a.push(6)
-console.log(a)
-a.pop()
-a.shift()
-console.log(a)
+var array = []
+
+array.length = 6 + Math.ceil(Math.random()*10)
+
+for (var i = 0; i < array.length; i++){
+    array[i]=Math.floor(Math.random()*10)}
+    console.log(array)

@@ -1,31 +1,7 @@
-
-
-var a = new Array()
-
-for(var i = 0; i < 100; i++)
-{
-
-
-   a[i]= Math.random()
-
-
-
-  }
-  console.log(a)
-
-
-
-
-
-var b = []
-
-for(var i = 0; i < 100; i++)
-{
-
-
-    b[i]= Math.random()
-
-
-
-}
+var a = [1,2,3,4,5]
+a.unshift(0)
+a.push(6)
+console.log(a)
+a.pop()
+a.shift()
 console.log(a)

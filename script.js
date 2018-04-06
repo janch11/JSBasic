@@ -1,7 +1,14 @@
+var age = prompt()
 
-
-var isFalsy = 0
-
-var start = isFalsy || 1
-
-console.log(start)
+if (age==1) {
+    console.log(1)
+}
+else if (age=="1") {
+    console.log(1)
+}
+else if (age==2) {
+    console.log(2)
+}
+else  {
+    console.log(0)
+}

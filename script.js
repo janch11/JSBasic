@@ -1,9 +1,9 @@
-alert("Hello World")
+var ages = 23 + 24 + 25 + 34
+var count =  ages / 4
 
-var one = 1
-var two = "Some info"
-var three =  null
-var four = undefined
-var six = true
-
-console.log(two, typeof two)
+if (count % 2 == 0) {
+    alert("Is Even")
+}
+else {
+    alert("Isn't even")
+}

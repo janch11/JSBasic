@@ -1,14 +1,16 @@
 var age = prompt()
+var ageInteger = parseInt(age)
 
-if (age==1) {
-    console.log(1)
-}
-else if (age=="1") {
-    console.log(1)
-}
-else if (age==2) {
-    console.log(2)
-}
-else  {
-    console.log(0)
+switch (ageInteger) {
+    case 1:
+        console.log(1)
+        break;
+    case "1":
+        console.log(2)
+        break;
+    case 2:
+        console.log(3)
+        break;
+    default:
+        console.log(0)
 }

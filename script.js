@@ -1,11 +1,13 @@
-var check = 3
+var number = [1,2,3,4,5,6,7]
 
-var access = check===1? 1
-    :
-    check==="1"? 2
-        :
-        check===2? 3
-            :
-            0 ;
 
-console.log(access)
+console.time('in loop')
+for (var i = 0; i <= number.length; i++ )
+    console.log(number[i]);
+console.timeEnd('in loop')
+
+console.time('before loop')
+var length = number.length
+for (var i = 0; i <= length; i++ )
+    console.log(number[i]);
+console.timeEnd('before loop')

@@ -1,14 +1,31 @@
-var milkTemp = 20
-var a = Math.random()
 
 
-while(milkTemp < 100) {
+var a = new Array()
 
-     milkTemp = milkTemp + a
+for(i=0; i < 100; i++)
+{
+
+
+   a[i]= Math.random()
+
+
+
+  }
+  console.log(a)
+
+
+
+
+
+var b = []
+
+for(i=0; i < 100; i++)
+{
+
+
+    b[i]= Math.random()
+
 
 
 }
-alert (milkTemp);
-
-for(var milkTempTwo = 20; milkTempTwo < 100; milkTempTwo += a){
-    console.log(milkTempTwo)}
+console.log(a)

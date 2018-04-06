@@ -1,11 +1,11 @@
-var a
+var milkTemp = 20
+var a = Math.random()
 
-for (i = 0; i <= 10; i++) {
-    a = Math.random();
 
-    if (a < 0.5) {
-        console.log(a)
-    }
+while(milkTemp < 100) {
+
+     milkTemp = milkTemp + a
+    console.log(milkTemp)
+
 }
-
-
+alert (milkTemp);

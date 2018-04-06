@@ -2,7 +2,7 @@
 
 var a = new Array()
 
-for(i=0; i < 100; i++)
+for(var i = 0; i < 100; i++)
 {
 
 
@@ -19,7 +19,7 @@ for(i=0; i < 100; i++)
 
 var b = []
 
-for(i=0; i < 100; i++)
+for(var i = 0; i < 100; i++)
 {
 
 

@@ -1,19 +1,8 @@
-var home = prompt()
+var myCar = new Object ()
 
+myCar.year = 2004
+myCar.make = "Opel"
+myCar.model = "Vectra"
+myCar.engine = 1.9
 
-var indexSecondStart = home.indexOf(' ');
-console.log(indexSecondStart);
-var indexSecondEnd = home.indexOf(' ',indexSecondStart+1)
-var secondWord = home.substring(indexSecondStart+1,indexSecondEnd);
-
-console.log(secondWord)
-
-if (secondWord.indexOf('a')===-1)
-{
-    console.log("not contain a");
-}
-else
-{console.log('contain a');
-}
-
-
+console.log(myCar)

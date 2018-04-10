@@ -1,17 +1,23 @@
-var arr = [1,2,3,4,5,6]
-
-function loop(arr,index) {
 
 
-    console.log(arr[index])
-
-    var lastIndex = arr.length -1
-
-    if (index === lastIndex){
-        return;
+var myCar =
+    {
+        year:  2004,
+        make: "Opel",
+        model: "Vectra",
+        engine: 1.9,
+        color: "blue",
     }
-    loop(arr,index + 1)
 
+function carService(car) {
+
+    car.color = prompt('Wpisz kolor na  jaki chcesz przemalowac auto :) ')
+    return myCar
 
 }
-console.log(loop(arr,0))
+
+var newCar = carService(myCar)
+
+alert("Hello you car color is" + " " + myCar.color)
+
+console.log(myCar)

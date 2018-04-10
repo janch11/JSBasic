@@ -1,4 +1,4 @@
-var home = "This is my home"
+var home = prompt()
 
 
 var indexSecondStart = home.indexOf(' ');

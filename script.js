@@ -7,8 +7,9 @@ var index2 = array.indexOf(9, -1);
 
 console.log(index2);
 
-array.push(9);
-
+if (index2 === -1) {
+    array.push(9);
+}
 console.log(array);
 
 

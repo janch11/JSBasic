@@ -1,11 +1,15 @@
 
+var counter = 8
 
-var myCar =
-{
-    year:  2004,
-    make: "Opel",
-    model: "Vectra",
-    engine: 1.9
-}
+function counterIncrease (){
+    return counter++
+    }
 
-console.log(myCar)
+    console.log(counterIncrease())
+    console.log(counterIncrease())
+    console.log(counterIncrease())
+    console.log(counterIncrease())
+    console.log(counterIncrease())
+    console.log(counterIncrease())
+
+

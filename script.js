@@ -1,23 +1,9 @@
+console.log(car)
+
+var car = "Opel"
 
 
-var myCar =
-    {
-        year:  2004,
-        make: "Opel",
-        model: "Vectra",
-        engine: 1.9,
-        color: "blue",
-    }
-
-function carService(car) {
-
-    car.color = prompt('Wpisz kolor na  jaki chcesz przemalowac auto :) ')
-    return myCar
-
+myFunction();
+function myFunction(){
+    console.log('my function works well!');
 }
-
-var newCar = carService(myCar)
-
-alert("Hello you car color is" + " " + myCar.color)
-
-console.log(myCar)

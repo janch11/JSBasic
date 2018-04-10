@@ -1,6 +1,10 @@
 var home = "This is my home"
 
-var secondWord = home.substr(5,2);
+
+var indexSecondStart = home.indexOf(' ');
+console.log(indexSecondStart);
+var indexSecondEnd = home.indexOf(' ',indexSecondStart+1)
+var secondWord = home.substring(indexSecondStart+1,indexSecondEnd);
 
 console.log(secondWord)
 

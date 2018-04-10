@@ -1,15 +1,15 @@
-var array = [1,2,3,4,5,6,7,8,9,10,1,2,3,9]
+var home = "This is my home"
 
-var index = array.indexOf(9);
-console.log(index);
+var secondWord = home.substr(5,2);
 
-var index2 = array.indexOf(9, -1);
+console.log(secondWord)
 
-console.log(index2);
-
-if (index2 === -1) {
-    array.push(9);
+if (secondWord.indexOf('a')===-1)
+{
+    console.log("not contain a");
 }
-console.log(array);
+else
+{console.log('contain a');
+}
 
 

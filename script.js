@@ -1,16 +1,14 @@
-var array = []
+var array = [1,2,3,4,5,6,7,8,9,10,1,2,3,9]
 
+var index = array.indexOf(9);
+console.log(index);
 
-var a = Math.ceil(Math.random()*10)
+var index2 = array.indexOf(9, -1);
 
-for (var i = 0; i < a; i++){
+console.log(index2);
 
-    var random = Math.floor(Math.random()*10)
+array.push(9);
 
-    if (random%2 === 0 ){
-    array.push(random)}}
-
-    console.log(array)
-
+console.log(array);
 
 

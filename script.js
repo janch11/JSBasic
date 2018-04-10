@@ -1,14 +1,17 @@
+var arr = [1,2,3,4,5,6]
+
+function loop(arr,index) {
 
 
+    console.log(arr[index])
 
-(function() {
-    var counter = 0
-        function counterIncrease (a,b){
+    var lastIndex = arr.length -1
 
-        counter++
-        return a+b
-    }console.log(counterIncrease(5,9))
-    console.log(counter)
-})()
-console.log(counter)
-console.log(counterIncrease)
+    if (index === lastIndex){
+        return;
+    }
+    loop(arr,index + 1)
+
+
+}
+console.log(loop(arr,0))

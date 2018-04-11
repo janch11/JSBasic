@@ -1,14 +1,22 @@
+function addDiv () {
 
-function addElement(container, content, tag) {
-    container = container || document.querySelector('body')
-    content = content === undefined ? 'Ala ma kota' : content
-    tag = tag || 'div'
+    var newDiv = document.createElement("div")
+    var newDiv2 = document.createElement("div")
+    var textNode = document.createTextNode("Hello")
+    newDiv.appendChild(newDiv2)
+    newDiv2.appendChild(textNode)
 
-    var newDiv = document.createElement(tag)
-    var textNode = document.createTextNode(content)
-
-    newDiv.appendChild(textNode)
-
-    container.appendChild(newDiv)
+    document.body.appendChild(newDiv)
 }
-addElement()
+addDiv()
+
+
+
+
+
+
+
+
+
+
+

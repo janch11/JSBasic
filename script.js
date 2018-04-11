@@ -1,11 +1,14 @@
-function addElement(content) {
 
-    content = content === undefined ? "Ala ma kota": content
+function addElement(container, content, tag) {
+    container = container || document.querySelector('body')
+    content = content === undefined ? 'Ala ma kota' : content
+    tag = tag || 'div'
 
-    var bodyElement = document.querySelector("body")
-    var newDiv = document.createElement("div")
+    var newDiv = document.createElement(tag)
     var textNode = document.createTextNode(content)
-    newDiv.appendChild(textNode)
-    bodyElement.appendChild(newDiv)
 
-} addElement()
+    newDiv.appendChild(textNode)
+
+    container.appendChild(newDiv)
+}
+addElement()

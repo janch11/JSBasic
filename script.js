@@ -1,11 +1,26 @@
-function addClass () {
+var newInput
 
-    var newDiv = document.querySelector("div")
 
-    newDiv.className = "new2"
 
-    newDiv.classList.add("new")
-    newDiv.classList.add("new1")
-    newDiv.classList.remove("new1")
+function addAttribute () {
 
-}addClass()
+    newInput = document.querySelector("input")
+
+    newInput.setAttribute("disabled", "")
+    newInput.setAttribute('name', 'email')
+
+    newInput.removeAttribute("disabled")
+
+
+}
+
+addAttribute()
+
+function toggleAttribute () {
+
+    if( newInput.getAttribute("disabled")===null)
+        newInput.setAttribute("disabled", "")
+    else
+        newInput.removeAttribute("disabled")
+
+} toggleAttribute()

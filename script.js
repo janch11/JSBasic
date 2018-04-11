@@ -1,4 +1,10 @@
-(function add () {
+var first = document.getElementById("first")
 
-     window.location = prompt("Wpisz lokalizacje strony")
-})()
+document.getElementsByClassName("text")
+
+
+var text = first.getElementsByClassName("text")
+
+
+console.log(first)
+console.log(text)

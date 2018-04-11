@@ -6,9 +6,10 @@ function addDiv (content) {
     var newDiv = document.createElement("div")
     var newDiv2 = document.createElement("div")
     var textNode = document.createTextNode(content)
-    newDiv.appendChild(newDiv2)
-    newDiv2.appendChild(textNode)
 
+
+    newDiv2.appendChild(textNode)
+    newDiv.appendChild(newDiv2)
     document.body.appendChild(newDiv)
 }
 addDiv()

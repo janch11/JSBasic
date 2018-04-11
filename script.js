@@ -1,17 +1,8 @@
-var first = document.getElementById("first")
+function addElement() {
+    var bodyElement = document.querySelector("body")
+    var newDiv = document.createElement("div")
+    var textNode = document.createTextNode("Ala ma kota")
+    newDiv.appendChild(textNode)
+    bodyElement.appendChild(newDiv)
 
-document.getElementsByClassName("text")
-
-
-var text = first.getElementsByClassName("text")
-
-
-var querryTextAll = document.querySelectorAll("p.text")
-var querryText = document.querySelector("p.text")
-
-
-console.log(first)
-console.log(text)
-console.log(querryTextAll)
-console.log(querryText)
-
+} addElement()

@@ -12,13 +12,16 @@ function addDiv (content) {
     newDiv.appendChild(newDiv2)
     document.body.appendChild(newDiv)
 }
+
+
+
+function addDivByInnerHtml() {
+    document.body .innerHTML = "<div><div>Hello it's me </div></div>"
+
+}
 addDiv()
 
-
-
-
-
-
+addDivByInnerHtml()
 
 
 
